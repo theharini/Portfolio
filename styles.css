@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
 }
+                     /* NAVIGATION BAR */
 header{
     background-color: black;
     color:white;
@@ -17,18 +18,18 @@ header span{
     font-weight: bold;
     font-size: 30px;
 }
-ul{
+header ul{
     display: flex;
     list-style-type: none;
 }
-ul li{
+header ul li{
     margin-right: 40px;
 }
-ul li a{
+header ul li a{
     color:white;
     text-decoration:  none;  
 }
-ul li a:hover{
+header ul li a:hover{
     color:rgb(0, 225, 255);
     cursor:pointer;
 }
@@ -39,9 +40,75 @@ header button{
     border-radius: 5px;
     background-color: black;
     border:2px solid rgb(0, 225, 255);
+    box-shadow:10px 20px 20px rgb(0, 225, 255);
 }
 header button:hover{
     background-color:rgb(0, 225, 255); 
     color:black;
     cursor:pointer;
+}
+
+                    /* HERO SECTION */
+section.hero-section{
+    color:rgb(255, 255, 255);
+    background-color:rgb(39, 37, 37);
+    display:flex;
+align-items: center;
+padding:20px 80px 0px 80px;
+}
+.hero-section__title{
+    font-size: 48px;
+    font-weight: bold ;
+}
+.hero-section__title span{
+    color:rgb(0, 225, 255); 
+}
+.hero-section__desc{
+    color:azure;
+}
+ .social-icons{
+    margin:20px 0px;
+}
+.social-icons li{
+    margin:15px;
+}
+ul.social-icons{
+    list-style-type: none;
+    display: flex;
+}
+.social-icons li a{
+    text-decoration: none;
+    color:white;
+}
+.social-icons li a > i.fa-whatsapp:hover{
+    color:  #28D146;
+}
+.social-icons li a > i.fa-linkedin:hover{
+    color:#0A66C2;
+}
+.social-icons li a > i.fa-instagram:hover{
+    color: #E1306C; 
+}
+.social-icons li a > i.fa-x-twitter:hover{
+    color:#00acee;
+}
+
+/* BUTTONS */
+.btn{
+    padding:10px 20px;
+    border-radius: 2px;
+    border: none;
+    cursor:pointer;
+    border-radius: 5px;
+    border:4px solid rgb(61, 58, 58);
+}
+.btn.btn-primary{
+    background-color: rgb(0, 225, 255); 
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    border:4px solid rgb(61, 58, 58);
+}
+.btn.btn-primary:hover{
+    background-color:#ffffff ;
+    color:rgb(0, 225, 255);
 }
