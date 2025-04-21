@@ -27,7 +27,7 @@ header ul li{
 }
 header ul li a{
     color:white;
-    text-decoration:  none;  
+    text-decoration: none;
 }
 header ul li a:hover{
     color:rgb(0, 225, 255);
@@ -111,4 +111,49 @@ ul.social-icons{
 .btn.btn-primary:hover{
     background-color:#ffffff ;
     color:rgb(0, 225, 255);
+}
+                         /* ABOUT SECTION */
+.about-section{
+    background-color: rgb(81, 74, 74);
+    color:white;
+    padding:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.about-section img{
+        width: 300px;
+        height:300px;
+        border-radius: 20%;
+        border:5px solid rgb(255, 255, 255);
+        box-shadow: 5px 10px 30px white;
+    }
+.about-section__desc{
+  margin-left: 100px;
+  max-width: 450px;
+}
+.about-section__desc h4{
+ font-size: 30px;
+ font-weight: 900;
+} 
+.about-section__desc h4 span{
+    color:rgb(0, 225, 255);
+}
+.about-section__desc ul{
+    list-style: none;
+   margin:10px 0px;
+}
+.about-section__desc li{
+    margin-bottom: 8px;
+    color:rgb(255, 255, 255);
+}
+.about-section__desc li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.about-section__desc li a:hover{
+    color:#00acee;
+}
+.about-section__desc li strong{
+    color:rgb(57, 189, 201);
 }
