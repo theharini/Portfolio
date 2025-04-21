@@ -122,7 +122,7 @@ ul.social-icons{
     align-items: center;
     }
 .about-section img{
-        width: 300px;
+        width: 250px;
         height:300px;
         border-radius: 20%;
         border:5px solid rgb(255, 255, 255);
@@ -156,4 +156,57 @@ ul.social-icons{
 }
 .about-section__desc li strong{
     color:rgb(57, 189, 201);
+}
+/* WORK SECTION */
+.work-section{
+    background-color:rgb(39, 37, 37);
+    color:white;
+    padding:60px;
+    text-align: center;  
+}
+.work-section-box1{
+    background-color:  rgb(81, 74, 74);
+    padding: 30px;
+    max-width: 300px;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 40px;
+   
+}
+.work-section-box1:hover{
+    background-color: rgb(43, 40, 40);
+
+}
+.work-section h4{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.work-section-box1 p{
+    color:gray;
+    font-size: 17px;
+}
+.work-section-box1 a{
+    text-decoration: none;
+    color:rgb(0, 217, 255);
+}
+.work-section-box1__desc{
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+.work-section-box1__desc p{
+    padding-top:5px;
+}
+.work-section-icon{
+    background-color: #00acee;
+    padding:10px;
+    border-radius: 50%;
+  }
+.work-section-icon:hover{
+    background-color: blue;
+  }
+.work-section-items{
+    display: flex;
+    justify-content: center;
 }
