@@ -9,6 +9,7 @@ header{
     color:white;
     display:flex;
     padding:20px;
+
     justify-content: space-around;
     align-items: center;
 }
@@ -209,4 +210,34 @@ ul.social-icons{
 .work-section-items{
     display: flex;
     justify-content: center;
+}
+/* CONTACT ME */
+.contact-section{
+    background-color: black;
+    padding:40px;
+    color:white;
+    text-align: center;
+}
+.contact-section h4{
+    font-size:30px;
+    margin:20px 0px;
+    font-weight: 900;
+}
+.contact-section h4 span{
+    color:#00acee;
+}
+.contact-section form input,textarea{
+    padding:5px 10px;
+    outline:none;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    /* resize: none; */
+}
+footer{
+    background-color: #585353;
+    color:rgb(255, 255, 255);
+text-align: center;
 }
